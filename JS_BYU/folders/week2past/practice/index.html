@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test age</title>
+</head>
+<body>
+    <label for="age">Enter you age: </label>
+    <input id="age1">
+
+    <script>
+        const age = document.getElementById("age1").value;
+
+        const result = age + 10; //if the ae is 21 the result would be 2110!
+        console.log(`In 10 years you'll have ${result} years.`)
+        // we need to change the type of the variable
+        const result1 = parseInt(age) + 10; 
+        console.log(result1); // It would be 31!
+    </script>
+</body>
+</html>
